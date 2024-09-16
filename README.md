@@ -1,5 +1,5 @@
 # Abo Plugin
-# this plugin is a addon for mollie plugin, which will provide customers to buy product on abo terms 
+# This plugin is a addon for mollie plugin, which will provide customers to buy product on abo terms 
 
 
 # Requirements:
