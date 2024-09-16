@@ -1,0 +1,7 @@
+Copyright (c) 2024 JTL-Software-GmbH.
+
+Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die „Software“) erwirbt, kostenlos das Recht eingeräumt, uneingeschränkt mit der Software zu verfahren, einschließlich, jedoch nicht beschränkt auf das Recht, Kopien der Software zu verwenden, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, Unterlizenzen zu vergeben und/oder zu verkaufen, und Personen, denen die Software zur Verfügung gestellt wird, zu gestatten, dies zu tun, vorbehaltlich der folgenden Bedingungen:
+
+Der obige Copyright-Hinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
+
+DIE SOFTWARE WIRD OHNE MÄNGELGEWÄHR UND OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIE DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN, ZUR VERFÜGUNG GESTELLT. UNTER KEINEN UMSTÄNDEN SIND DIE AUTOREN ODER URHEBERRECHTSINHABER HAFTBAR FÜR IRGENDWELCHE ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, OB AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG, DIE SICH AUS DER SOFTWARE ODER DER NUTZUNG ODER ANDERWEITIGEN VERWENDUNG DER SOFTWARE ERGEBEN ODER DAMIT IN ZUSAMMENHANG STEHEN.

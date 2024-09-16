@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jtlshopplugin>
+	<Name>Abo Mollie</Name>
+	<Description>This is a Addon for mollie plugin to add Abo functionality</Description>
+	<Author>List and Sell GmbH</Author>
+	<URL>https://www.listandsell.de</URL>
+	<XMLVersion>100</XMLVersion>
+	<ShopVersion>5.0.0-beta.3</ShopVersion>
+	<PluginID>Abo_Mollie</PluginID>
+    <CreateDate>2024-07-31</CreateDate>
+    <Version>1.0.0</Version>
+	<Install>
+		
+		<Adminmenu>
+			<Customlink sort="1">
+				<Name>Mollie Frequency</Name>
+				<Filename>mollie_frequency.php</Filename>
+			</Customlink>
+			<Customlink sort="2">
+				<Name>Abo Bestellungen</Name>
+				<Filename>abo_orders.php</Filename>
+			</Customlink>
+		</Adminmenu>
+        <FrontendLink>
+        <Link>
+        <Filename>Abo-Informationen.php</Filename>
+        <Name>Abo Informationen</Name>
+        <Template>Abo-Informationen.tpl</Template>
+        <VisibleAfterLogin>N</VisibleAfterLogin>
+        <PrintButton>N</PrintButton>
+        <Identifier>aboinfoUniqueIdentifier</Identifier><!-- seit Shop 5.1.0 -->
+        <SSL>2</SSL>
+        <LinkLanguage iso="GER">
+        <Seo>abo-information</Seo>
+        <Name>Abo Information</Name>
+        <Title>Abo Information</Title>
+        <MetaTitle>Abo Information</MetaTitle>
+        <MetaKeywords>abo,subscription</MetaKeywords>
+        <MetaDescription>Abo Information with mollie</MetaDescription>
+        </LinkLanguage>
+        </Link>
+        </FrontendLink>
+        <CSS>
+        <file>
+            <name>abocustom.css</name>
+            <priority>4</priority>
+            
+        </file>
+       
+         </CSS>
+		  
+		 <JS>
+            <file>
+                <name>main.js</name> 
+                <priority>1</priority>
+                <position>body</position> 
+            </file>
+           
+        </JS>
+           <Locales>
+        <Variable>
+            <Name>abo_discount_text</Name>
+            <VariableLocalized iso="GER">
+             Spare jetzt &lt;span class="discount_highlight"&gt;5%&lt;/span&gt; mit einem Futterabo – &lt;a href="/Abo-Information"&gt;klicke hier&lt;/a&gt; fuer weitere Informationen.
+              </VariableLocalized>
+        
+            <Description>Abo discount text for product page.</Description>
+        </Variable>
+        <Variable>
+            <Name>aboheading</Name>
+            <Description>Heading on order cart.</Description>
+            <VariableLocalized iso="GER">Abonnementdetails</VariableLocalized>
+        
+        </Variable>
+        <Variable>
+            <Name>aboorderCompletedPost</Name>
+            <Description>Abo order thank you heading.</Description>
+            <VariableLocalized iso="GER">Dein Abonnement wurde erfolgreich eingerichtet.</VariableLocalized>
+        
+        </Variable>
+         <Variable>
+            <Name>aboorderConfirmationPost</Name>
+            <Description>Abo order thank you page note.</Description>
+            <VariableLocalized iso="GER">Dein Abonnement ist nun aktiv! In Kuerze erhaeltst du eine Bestaetigungs-E-Mail mit allen wichtigen Informationen zu deinem Abonnement.</VariableLocalized>
+        
+        </Variable>
+         <Variable>
+            <Name>aboprocessordernote</Name>
+            <Description>Abo order by credit card put on process Message will appear on thank you page.</Description>
+            <VariableLocalized iso="GER">Dein Abonnement wird momentan eingerichtet. Du erhaeltst in Kuerze eine E-Mail mit allen Details.</VariableLocalized>
+        
+        </Variable>
+        <Variable>
+            <Name>noaboerrormessage</Name>
+            <Description>No order details find.</Description>
+            <VariableLocalized iso="GER">Fuer diese Bestellung sind keine Abonnementdetails verfuegbar.</VariableLocalized>
+        
+        </Variable>
+          <Variable>
+            <Name>interval</Name>
+            <Description>Abo heading for intervals.</Description>
+            <VariableLocalized iso="GER">Abo Interval</VariableLocalized>
+        
+        </Variable>
+            <Variable>
+            <Name>interval_label</Name>
+            <Description>Product page interval label</Description>
+            <VariableLocalized iso="GER">Interval:</VariableLocalized>
+        
+        </Variable>
+          <Variable>
+            <Name>select_Interval</Name>
+            <Description>Interval blank option.</Description>
+            <VariableLocalized iso="GER">Select Interval</VariableLocalized>
+        
+        </Variable>
+    </Locales>
+	</Install>
+</jtlshopplugin>
